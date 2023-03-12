@@ -7,6 +7,7 @@
   "homepage": "https://github.com/wsvaio/anylint-config",
   "repository": "https://github.com/wsvaio/anylint-config",
   "keywords": [
+    "wsvaio",
     "stylelint",
     "stylelint-config"
   ],

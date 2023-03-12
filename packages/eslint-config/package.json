@@ -1,6 +1,6 @@
 {
   "name": "@wsvaio/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My Eslint Config",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
   "license": "MIT",
