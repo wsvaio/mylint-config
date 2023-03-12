@@ -1,0 +1,24 @@
+{
+  "name": "@wsvaio/commitlint-config",
+  "version": "0.0.3",
+  "description": "My Commitlint Config",
+  "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wsvaio/anylint-config",
+  "repository": "https://github.com/wsvaio/anylint-config",
+  "keywords": [
+    "wsvaio",
+    "commitlint",
+    "commitlint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.4.4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@wsvaio/stylelint-config",
+  "version": "0.0.4",
+  "description": "My Stylelint Config",
+  "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wsvaio/anylint-config",
+  "repository": "https://github.com/wsvaio/anylint-config",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "generate.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "css-property-sort-order-smacss": "^2.2.0",
+    "postcss-html": "^1.5.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-order": "^6.0.2"
+  }
+}
