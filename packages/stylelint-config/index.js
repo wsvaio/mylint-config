@@ -49,5 +49,6 @@ module.exports = {
         ignoreFunctions: ["/^v-/"],
       },
     ],
+    "no-empty-source": null,
   },
 };

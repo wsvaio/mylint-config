@@ -40,5 +40,6 @@ module.exports = {
     eqeqeq: "off",
     "prefer-const": "off",
     "no-console": "off",
+    "vue/valid-template-root": "off",
   },
 };

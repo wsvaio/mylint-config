@@ -1,11 +1,18 @@
 {
   "name": "@wsvaio/stylelint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My Stylelint Config",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
+  "funding": "https://github.com/sponsors/wsvaio",
+  "homepage": "https://github.com/wsvaio/mylint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsvaio/mylint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wsvaio/mylint-config/issues"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/wsvaio/anylint-config",
-  "repository": "https://github.com/wsvaio/anylint-config",
   "keywords": [
     "wsvaio",
     "stylelint",
@@ -24,7 +31,7 @@
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
     "postcss-scss": "^4.0.6",
-    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard": "latest",
     "stylelint-order": "^6.0.2"
   }
 }

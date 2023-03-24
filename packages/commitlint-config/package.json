@@ -1,11 +1,18 @@
 {
   "name": "@wsvaio/commitlint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My Commitlint Config",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
+  "funding": "https://github.com/sponsors/wsvaio",
+  "homepage": "https://github.com/wsvaio/mylint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsvaio/mylint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wsvaio/mylint-config/issues"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/wsvaio/anylint-config",
-  "repository": "https://github.com/wsvaio/anylint-config",
   "keywords": [
     "wsvaio",
     "commitlint",
@@ -19,6 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.4.4"
+    "@commitlint/config-conventional": "latest"
   }
 }
