@@ -24,22 +24,62 @@ module.exports = {
         ignores: [],
       },
     ],
-    "vue/html-self-closing": [
-      "error",
-      {
-        html: {
-          void: "always",
-          normal: "any",
-          component: "any",
-        },
-        svg: "always",
-        math: "always",
-      },
-    ],
+
     "antfu/if-newline": "off",
     eqeqeq: "off",
     "prefer-const": "off",
     "no-console": "off",
     "vue/valid-template-root": "off",
+
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/no-unused-vars": [
+      "error",
+      {
+        ignorePattern: "^_",
+      },
+    ],
+    "antfu/top-level-function": "off",
+    "vue/html-self-closing": [
+      "error",
+      {
+        html: {
+          void: "always",
+          normal: "always",
+          component: "always",
+        },
+        svg: "always",
+        math: "always",
+      },
+    ],
+    "vue/html-indent": [
+      "error",
+      "tab",
+      {
+        attribute: 1,
+        baseIndent: 1,
+        closeBracket: 0,
+        alignAttributesVertically: false,
+        ignores: [],
+      },
+    ],
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        singleline: 4,
+        multiline: 4,
+      },
+    ],
+    "vue/first-attribute-linebreak": [
+      "error",
+      {
+        singleline: "beside",
+        multiline: "below",
+      },
+    ],
+    "no-tabs": "off",
+    "@typescript-eslint/indent": ["error", "tab"],
+    "arrow-parens": ["error", "as-needed"],
+    "@typescript-eslint/comma-dangle": "off",
+    "no-mixed-operators": "off",
   },
 };

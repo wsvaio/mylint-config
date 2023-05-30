@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@wsvaio/anylint-config",
+  "name": "@wsvaio/mylint-config",
   "version": "0.0.0",
   "description": "eslint、stylelint、commitlint等lint工具的配置",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",

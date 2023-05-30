@@ -25,6 +25,18 @@ module.exports = {
     ],
   },
   prompt: {
+    scopes: [
+      "projects",
+      "components",
+      "hooks",
+      "utils",
+      "types",
+      "styles",
+      "deps",
+      "auth",
+      "release",
+      "other",
+    ],
     messages: {
       type: "选择你要提交的类型 :",
       scope: "选择一个提交范围 (可选):",

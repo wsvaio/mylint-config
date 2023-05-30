@@ -1,6 +1,6 @@
 {
   "name": "@wsvaio/stylelint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My Stylelint Config",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
   "funding": "https://github.com/sponsors/wsvaio",
@@ -27,11 +27,11 @@
     "access": "public"
   },
   "dependencies": {
-    "css-property-sort-order-smacss": "^2.2.0",
-    "postcss-html": "^1.5.0",
-    "postcss-less": "^6.0.0",
-    "postcss-scss": "^4.0.6",
+    "css-property-sort-order-smacss": "latest",
+    "postcss-html": "latest",
+    "postcss-less": "latest",
+    "postcss-scss": "latest",
     "stylelint-config-standard": "latest",
-    "stylelint-order": "^6.0.2"
+    "stylelint-order": "latest"
   }
 }
