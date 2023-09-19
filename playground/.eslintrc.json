@@ -1,0 +1,10 @@
+{
+	"root": true,
+	"extends": "@wsvaio",
+	"rules": {
+		"vue/max-attributes-per-line": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"unused-imports/no-unused-imports": "error",
+		"@stylistic/ts/quotes": "off"
+	}
+}

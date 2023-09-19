@@ -27,15 +27,19 @@ module.exports = {
   prompt: {
     scopes: [
       "projects",
+      "apis",
+      "assets",
       "components",
-      "hooks",
+      "composables",
+      "directives",
+      "layouts",
+      "modules",
+      "routes",
+      "stores",
       "utils",
+      "views",
       "types",
-      "styles",
-      "deps",
-      "auth",
-      "release",
-      "other",
+      "others"
     ],
     messages: {
       type: "选择你要提交的类型 :",

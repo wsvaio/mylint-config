@@ -26,6 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@antfu/eslint-config": "latest"
+    "@antfu/eslint-config": "0.42.0"
   }
 }

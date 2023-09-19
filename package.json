@@ -17,5 +17,9 @@
   "engines": {
     "node": ">=16",
     "pnpm": ">=7"
+  },
+  "scripts": {
+    "dev": "pnpm --filter playground dev",
+    "release": "pnpm --filter packages/* version patch && pnpm --filter packages/* publish"
   }
 }

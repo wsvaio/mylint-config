@@ -26,7 +26,7 @@ module.exports = {
     ],
 
     "antfu/if-newline": "off",
-    eqeqeq: "off",
+    "eqeqeq": "off",
     "prefer-const": "off",
     "no-console": "off",
     "vue/valid-template-root": "off",
@@ -81,5 +81,9 @@ module.exports = {
     "arrow-parens": ["error", "as-needed"],
     "@typescript-eslint/comma-dangle": "off",
     "no-mixed-operators": "off",
+
+    // 若导入的模块变量未使用，自动移除
+		"unused-imports/no-unused-imports": "error"
+		
   },
 };

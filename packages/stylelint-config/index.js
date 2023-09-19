@@ -21,14 +21,14 @@ module.exports = {
   ],
   rules: {
     "order/order": [
-      "custom-properties",
-      "dollar-variables",
-      "at-variables",
-      "declarations",
-      "rules",
-      "at-rules",
-      "less-mixins",
-    ],
+			"at-rules",
+			"custom-properties",
+			"dollar-variables",
+			"at-variables",
+			"declarations",
+			"rules",
+			"less-mixins"
+		],
     "order/properties-order": [options],
     "selector-class-pattern": "^[a-z_-\\d]+$",
     "selector-pseudo-class-no-unknown": [
