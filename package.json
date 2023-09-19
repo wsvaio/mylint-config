@@ -20,6 +20,6 @@
   },
   "scripts": {
     "dev": "pnpm --filter playground dev",
-    "release": "pnpm --filter packages/* version patch && pnpm --filter packages/* publish"
+    "release": "pnpm --filter ./packages/* publish"
   }
 }
