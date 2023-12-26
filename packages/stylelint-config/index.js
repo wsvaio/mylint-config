@@ -1,4 +1,5 @@
 const generate = require("./generate");
+
 const options = generate();
 
 module.exports = {
@@ -21,14 +22,14 @@ module.exports = {
   ],
   rules: {
     "order/order": [
-			"at-rules",
-			"custom-properties",
-			"dollar-variables",
-			"at-variables",
-			"declarations",
-			"rules",
-			"less-mixins"
-		],
+      "at-rules",
+      "custom-properties",
+      "dollar-variables",
+      "at-variables",
+      "declarations",
+      "rules",
+      "less-mixins"
+    ],
     "order/properties-order": [options],
     "selector-class-pattern": "^[a-z_-\\d]+$",
     "selector-pseudo-class-no-unknown": [
@@ -50,5 +51,6 @@ module.exports = {
       },
     ],
     "no-empty-source": null,
+    "media-feature-range-notation": null,
   },
 };

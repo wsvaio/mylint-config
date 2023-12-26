@@ -1,6 +1,6 @@
 {
   "name": "@wsvaio/eslint-config",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "My Eslint Config",
   "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
   "funding": "https://github.com/sponsors/wsvaio",
@@ -19,13 +19,16 @@
     "eslint-config"
   ],
   "main": "index.js",
+  "type": "module",
   "files": [
-    "index.js"
+    "index.js",
+    "overwrites.js"
   ],
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@antfu/eslint-config": "0.42.0"
+    "@antfu/eslint-config": "latest"
   }
+
 }

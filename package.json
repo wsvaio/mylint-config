@@ -1,25 +1,43 @@
 {
-  "private": true,
-  "name": "@wsvaio/mylint-config",
-  "version": "0.0.0",
-  "description": "eslint、stylelint、commitlint等lint工具的配置",
-  "author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
-  "funding": "https://github.com/sponsors/wsvaio",
-  "homepage": "https://github.com/wsvaio/mylint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wsvaio/mylint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wsvaio/mylint-config/issues"
-  },
-  "license": "MIT",
-  "engines": {
-    "node": ">=16",
-    "pnpm": ">=7"
-  },
-  "scripts": {
-    "dev": "pnpm --filter playground dev",
-    "release": "pnpm --filter ./packages/* publish"
-  }
+	"private": true,
+	"type": "module",
+	"name": "@wsvaio/mylint-config",
+	"version": "0.0.0",
+	"description": "eslint、stylelint、commitlint等lint工具的配置",
+	"author": "wsvaio <wsvaio@qq.com> (https://github.com/wsvaio/)",
+	"funding": "https://github.com/sponsors/wsvaio",
+	"homepage": "https://github.com/wsvaio/mylint-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wsvaio/mylint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/wsvaio/mylint-config/issues"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=16",
+		"pnpm": ">=7"
+	},
+	"scripts": {
+		"commit": "czg",
+		"dev": "pnpm --filter playground dev",
+		"release": "pnpm --filter ./packages/* publish",
+		"prepare": "simple-git-hooks",
+		"lint": "lint-staged"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^18.4.3",
+		"@wsvaio/commitlint-config": "workspace:^",
+		"@wsvaio/eslint-config": "workspace:^",
+		"@wsvaio/stylelint-config": "workspace:^",
+		"commitlint": "^18.4.3",
+		"czg": "^1.8.0",
+		"eslint": "^8.56.0",
+		"lint-staged": "^15.2.0",
+		"prettier": "^3.1.1",
+		"simple-git-hooks": "^2.9.0",
+		"stylelint": "^16.1.0",
+		"typescript": "^5.3.3"
+	}
 }
