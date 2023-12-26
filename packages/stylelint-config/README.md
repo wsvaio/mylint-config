@@ -19,10 +19,10 @@ pnpm i -D stylelint @wsvaio/stylelint-config
 
 ```json
 {
-	"root": true,
-	"extends": ["@wsvaio/stylelint-config"],
-	"rules": {
-		// 可重写一些规则
-	}
+  "root": true,
+  "extends": ["@wsvaio/stylelint-config"],
+  "rules": {
+    // 可重写一些规则
+  }
 }
 ```

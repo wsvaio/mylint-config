@@ -43,15 +43,15 @@ vscode eslint插件支持
 
 ```json
 {
-	"eslint.experimental.useFlatConfig": true,
+  "eslint.experimental.useFlatConfig": true,
 
-	"prettier.enable": false,
-	"editor.formatOnSave": false,
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
 
-	"editor.codeActionsOnSave": {
-		"source.fixAll": "explicit",
-		"source.organizeImports": "never"
-	}
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  }
 }
 ```
 
@@ -63,8 +63,8 @@ vscode eslint插件支持
 import type { Awaitable, FlatConfigItem, OptionsConfig, UserConfigItem } from "@antfu/eslint-config";
 
 export default function wsvaio(
-	options?: OptionsConfig & FlatConfigItem,
-	...userConfigs: Awaitable<UserConfigItem | UserConfigItem[]>[]
+  options?: OptionsConfig & FlatConfigItem,
+  ...userConfigs: Awaitable<UserConfigItem | UserConfigItem[]>[]
 ): Promise<UserConfigItem[]>;
 ```
 

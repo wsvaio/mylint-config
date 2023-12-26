@@ -16,8 +16,8 @@ pnpm i -D commitlint @wsvaio/commitlint-config czg
 
 ```json
 {
-	"root": true,
-	"extends": ["@wsvaio"]
+  "root": true,
+  "extends": ["@wsvaio"]
 }
 ```
 
