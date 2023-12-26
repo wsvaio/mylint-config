@@ -1,7 +1,7 @@
 // eslint.config.js
 import antfu from "@antfu/eslint-config";
 
-export default (...overwrites) => antfu({
+export default (options, ...userConfigs) => antfu(options || {}, {
   rules: {
     // 双引号
     "style/quotes": ["error", "double"],
@@ -30,4 +30,4 @@ export default (...overwrites) => antfu({
     // 禁止 {}
     "ts/ban-types": "off"
   },
-}, ...overwrites);
+}, ...userConfigs);
